@@ -1,13 +1,11 @@
 package org.zzpj.app;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import org.zzpj.lib.Person;
+
+public class App {
+
+    public static void main( String[] args ) {
+        Person person = new Person("Artur");
+        person.sayHello();
     }
 }
